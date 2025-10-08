@@ -20,11 +20,11 @@ const TopApp = ({appData}) => {
   </div>
 
    <div className='flex justify-between items-center'>
-    <div className='flex items-center gap-2 py-1.5 px-2.5 rounded-sm bg-[#f1f5e8]'>
+    <div className='flex items-center gap-2 py-1.5 px-2.5 rounded-sm bg-[#f1f5e8] font-medium text-[#00d390]'>
        <img className='w-4 h-4' src={iconImg} alt="" />
        <span>{downloads}</span>
     </div>
-    <div className='flex items-center gap-2 py-1.5 px-2.5 rounded-sm bg-[#f1f5e8]'>
+    <div className='flex items-center gap-2 py-1.5 px-2.5 rounded-sm bg-[#f1f5e8] font-medium  text-[#ff8811]'>
          <img className='w-4 h-4' src={ratingImg} alt="" />
          <span>{ratingAvg}</span>
     </div>

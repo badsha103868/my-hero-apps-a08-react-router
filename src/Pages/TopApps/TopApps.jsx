@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import TopApp from '../TopApp/TopApp';
+import { Link } from 'react-router';
 
 const TopApps = ({ homeData}) => {
   return (
@@ -15,7 +16,9 @@ const TopApps = ({ homeData}) => {
             </div>
       </Suspense>
       <div className='flex justify-center mb-20'>
+        <Link to='/allApps'>
         <button className='btn bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] text-white py-3 px-5 font-semibold'>Show All</button>
+        </Link>
       </div>
 
     </div>
