@@ -4,7 +4,7 @@ import AllApps from '../AllApps/AllApps';
 
 const AllApp = () => {
   const data = useLoaderData()
-  console.log(data)
+  // console.log(data)
   return (
     <div className='mt-15 max-w-[1200px] mx-auto'>
       <div className='flex flex-col items-center justify-center mt-20 max-w-[1000px] mx-auto'>
@@ -13,7 +13,7 @@ const AllApp = () => {
       </div>
 
       <div className='flex justify-between items-center mt-10  mb-5'>
-        <span className='font-semibold text-2xl '>(132) Apps Found</span>
+        <span className='font-semibold text-2xl '>({data.length}) Apps Found</span>
       <label className="input input-sm w-64 max-w-xs flex items-center gap-2">
   <svg
     className="h-4 w-4 opacity-50"
