@@ -3,7 +3,7 @@ import React from 'react';
 const Installation = () => {
   return (
     <div>
-      ami Installation
+     <h2>ami installastion</h2>
     </div>
   );
 };
