@@ -14,7 +14,7 @@ const Navbar = () => {
  
   </>
   return (
-    <div className="navbar bg-[#ffffff] shadow-sm py-3 px-15 ">
+    <div className="navbar bg-[#ffffff] shadow-sm py-2 md:py-3 px-3 md:px-10 lg:px-15 ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,7 +29,7 @@ const Navbar = () => {
 
     {/* navbar left */}
    <div className='flex items-center gap-1 '>
-       <img className='w-[40px] h-[40px]' src={logoImg} alt="" />
+       <img className='w-[30px] h-[30px] md:w-[40px] md:h-[40px]' src={logoImg} alt="" />
       <a className=" font-bold text-xl text-[#632ee3]">HERO.IO</a>
    </div>
   </div>
