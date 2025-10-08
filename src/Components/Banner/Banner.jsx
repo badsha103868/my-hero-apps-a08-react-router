@@ -1,15 +1,20 @@
 import React from 'react';
  import bannerImg from '../../assets/hero.png'
+ import playImg from '../../assets/playStore.png'
+ import appStoreImg from '../../assets/appStore.png'
+
+
+
 const Banner = () => {
   return (
   <div className=' '>
       <div className='flex flex-col items-center justify-center mt-20 max-w-[1000px] mx-auto'>
       <h1 className='text-7xl font-bold text-center '>We Build <br /> <span className='text-[#632ee3]'>Productive</span> Apps</h1>
 
-      <p className='text-center text-[#627382] mt-4 w-'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.  Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+      <p className='text-center text-[#627382] mt-4 '>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.  Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
       <div className='mt-10 flex gap-2'>
-        <button className='btn '>Google Play</button>
-        <button className='btn'>App Store</button>
+        <button className='btn'> <img className='w-5 h-5' src={playImg} alt="" />Google Play</button>
+        <button className='btn'> <img className='w-5 h-5' src={appStoreImg} alt="" /> App Store</button>
       </div>
     
     <div className='mt-7'>

@@ -1,0 +1,470 @@
+[
+  {
+    "image": "https://i.ibb.co.com/0jDkYG81/spotify.png",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Stream millions of songs and podcasts anytime, anywhere. Discover new artists, follow your favorite creators, and download playlists for offline listening with Spotify Premium.",
+    "size": 85,
+    "reviews": 15200000,
+    "ratingAvg": 4.6,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 320000 },
+      { "name": "2 star", "count": 210000 },
+      { "name": "3 star", "count": 640000 },
+      { "name": "4 star", "count": 2300000 },
+      { "name": "5 star", "count": 11800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LXGcLXFB/instagram.jpg",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 2,
+    "description": "Capture and share life’s moments with photos and videos. Explore Reels, connect with friends, and stay close to what you love — all on one social platform.",
+    "size": 95,
+    "reviews": 165000000,
+    "ratingAvg": 4.4,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 7200000 },
+      { "name": "2 star", "count": 4300000 },
+      { "name": "3 star", "count": 10500000 },
+      { "name": "4 star", "count": 27500000 },
+      { "name": "5 star", "count": 116000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/v4LZ8rJf/Duolingo.png",
+    "title": "Duolingo: Language Lessons",
+    "companyName": "Duolingo",
+    "id": 3,
+    "description": "Learn over 30 languages with bite-sized lessons and fun challenges. Improve reading, writing, and speaking skills daily — all in a playful, interactive way.",
+    "size": 75,
+    "reviews": 15200000,
+    "ratingAvg": 4.7,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hFK0zgZF/Snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "id": 4,
+    "description": "Express yourself with fun filters and creative lenses. Chat instantly, share memories, and explore the world through the Snap Map and Stories.",
+    "size": 110,
+    "reviews": 34000000,
+    "ratingAvg": 4.2,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 2100000 },
+      { "name": "2 star", "count": 1300000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 18700000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bjfkC1Gk/Canva.jpg",
+    "title": "Canva: Design, Photo & Video",
+    "companyName": "Canva",
+    "id": 5,
+    "description": "Design anything in minutes — from logos and posters to videos and presentations. Access thousands of templates and edit easily using Canva’s drag-and-drop tools.",
+    "size": 120,
+    "reviews": 12000000,
+    "ratingAvg": 4.8,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 10300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/S7HmpjzG/Telegram.jpg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 6,
+    "description": "Fast, secure messaging with privacy you can trust. Send unlimited media, create massive group chats, and sync across all your devices seamlessly.",
+    "size": 68,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 210000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 7800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Xr6b8WHW/TikTok.png",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 7,
+    "description": "Create and explore short videos filled with creativity and fun. Join a global community of creators across dance, comedy, lifestyle, and education.",
+    "size": 160,
+    "reviews": 150000000,
+    "ratingAvg": 4.3,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 12000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 101000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rRyHmwkt/Google-Maps.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 8,
+    "description": "Navigate and explore the world with confidence. Get real-time GPS directions, live traffic updates, and detailed routes for driving, walking, or public transport.",
+    "size": 90,
+    "reviews": 16500000,
+    "ratingAvg": 4.6,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 12400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/mCzQwBGs/TaskPro.jpg",
+    "title": "TaskPro",
+    "companyName": "DemoSoft",
+    "id": 9,
+    "description": "Organize your daily tasks efficiently with TaskPro. Set reminders, track progress, and boost productivity effortlessly.",
+    "size": 25,
+    "reviews": 1200,
+    "ratingAvg": 4.1,
+    "downloads": "25K+",
+    "ratings": [
+      { "name":"1 star","count":50},
+      { "name":"2 star","count":30},
+      { "name":"3 star","count":200},
+      { "name":"4 star","count":500},
+      { "name":"5 star","count":420}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4ZrwYPBH/Photo-Lab-X.jpg",
+    "title": "PhotoLab X",
+    "companyName": "PixelWorks",
+    "id": 10,
+    "description": "Edit photos like a pro with PhotoLab X. Apply filters, effects, and stickers easily to enhance your pictures.",
+    "size": 30,
+    "reviews": 800,
+    "ratingAvg": 4.3,
+    "downloads": "45K+",
+    "ratings": [
+      { "name":"1 star","count":30},
+      { "name":"2 star","count":20},
+      { "name":"3 star","count":150},
+      { "name":"4 star","count":300},
+      { "name":"5 star","count":300}
+    ]
+  },
+   {
+    "image": "https://i.ibb.co.com/N6j17ZHf/Healthify.png",
+    "title": "FitTrack",
+    "companyName": "Healthify",
+    "id": 11,
+    "description": "Track your workouts, steps, and calories with FitTrack. Stay motivated and achieve fitness goals every day.",
+    "size": 40,
+    "reviews": 950,
+    "ratingAvg": 4.5,
+    "downloads": "60K+",
+    "ratings": [
+      { "name":"1 star","count":20},
+      { "name":"2 star","count":15},
+      { "name":"3 star","count":200},
+      { "name":"4 star","count":350},
+      { "name":"5 star","count":365}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LzhQTj6b/Write-Well.jpg",
+    "title": "NoteMaster",
+    "companyName": "WriteWell",
+    "id": 12,
+    "description": "Write, save, and organize your notes easily. NoteMaster lets you access notes across devices seamlessly.",
+    "size": 22,
+    "reviews": 600,
+    "ratingAvg": 4.2,
+    "downloads": "15K+",
+    "ratings": [
+      { "name":"1 star","count":15},
+      { "name":"2 star","count":10},
+      { "name":"3 star","count":100},
+      { "name":"4 star","count":250},
+      { "name":"5 star","count":225}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TxBsD5K0/Budget-Buddy.jpg",
+    "title": "BudgetBuddy",
+    "companyName": "FinTech Labs",
+    "id": 13,
+    "description": "Manage expenses and track savings effortlessly. BudgetBuddy provides insightful charts to control your finances.",
+    "size": 35,
+    "reviews": 1200,
+    "ratingAvg": 4.4,
+    "downloads": "35K+",
+    "ratings": [
+      { "name":"1 star","count":25},
+      { "name":"2 star","count":20},
+      { "name":"3 star","count":150},
+      { "name":"4 star","count":400},
+      { "name":"5 star","count":405}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/XZznzccv/Recipe-Book.jpg",
+    "title": "RecipeBook",
+    "companyName": "Foodie Inc",
+    "id": 14,
+    "description": "Discover thousands of recipes and cooking tips. Save favorites and create your own digital cookbook.",
+    "size": 28,
+    "reviews": 900,
+    "ratingAvg": 4.5,
+    "downloads": "40K+",
+    "ratings": [
+      { "name":"1 star","count":10},
+      { "name":"2 star","count":15},
+      { "name":"3 star","count":120},
+      { "name":"4 star","count":320},
+      { "name":"5 star","count":435}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PZb9ky17/MindCalm.jpg",
+    "title": "MindCalm",
+    "companyName": "ZenApps",
+    "id": 15,
+    "description": "Relax and meditate with guided sessions. MindCalm helps reduce stress and improve focus daily.",
+    "size": 26,
+    "reviews": 800,
+    "ratingAvg": 4.6,
+    "downloads": "30K+",
+    "ratings": [
+      { "name":"1 star","count":15},
+      { "name":"2 star","count":10},
+      { "name":"3 star","count":90},
+      { "name":"4 star","count":200},
+      { "name":"5 star","count":485}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/q3qcxzwv/Language-Pal.jpg",
+    "title": "LanguagePal",
+    "companyName": "LinguaTech",
+    "id": 16,
+    "description": "Learn new languages fast with interactive lessons and quizzes. Practice speaking, listening, and writing skills daily.",
+    "size": 33,
+    "reviews": 700,
+    "ratingAvg": 4.3,
+    "downloads": "25K+",
+    "ratings": [
+      { "name":"1 star","count":20},
+      { "name":"2 star","count":10},
+      { "name":"3 star","count":120},
+      { "name":"4 star","count":210},
+      { "name":"5 star","count":340}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xSp89L4X/SkyTech.png",
+    "title": "WeatherNow",
+    "companyName": "SkyTech",
+    "id": 17,
+    "description": "Get accurate and up-to-date weather forecasts. WeatherNow alerts you about storms, rain, or heat waves instantly.",
+    "size": 24,
+    "reviews": 550,
+    "ratingAvg": 4.4,
+    "downloads": "20K+",
+    "ratings": [
+      { "name":"1 star","count":5},
+      { "name":"2 star","count":10},
+      { "name":"3 star","count":80},
+      { "name":"4 star","count":180},
+      { "name":"5 star","count":275}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4RmGsPYK/WorkoutX.jpg",
+    "title": "WorkoutX",
+    "companyName": "FitLabs",
+    "id": 18,
+    "description": "Personalized workout plans and exercise tracking. WorkoutX helps you reach fitness goals efficiently.",
+    "size": 45,
+    "reviews": 1000,
+    "ratingAvg": 4.5,
+    "downloads": "55K+",
+    "ratings": [
+      { "name":"1 star","count":15},
+      { "name":"2 star","count":10},
+      { "name":"3 star","count":150},
+      { "name":"4 star","count":400},
+      { "name":"5 star","count":425}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5xLtzPgC/Daily-Journal.jpg",
+    "title": "DailyJournal",
+    "companyName": "WriteMore",
+    "id": 19,
+    "description": "Keep track of your thoughts, ideas, and daily events. DailyJournal is simple, private, and secure.",
+    "size": 20,
+    "reviews": 500,
+    "ratingAvg": 4.2,
+    "downloads": "15K+",
+    "ratings": [
+      { "name":"1 star","count":10},
+      { "name":"2 star","count":8},
+      { "name":"3 star","count":60},
+      { "name":"4 star","count":200},
+      { "name":"5 star","count":222}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qMRNHZgp/Travel-Mate.jpg",
+    "title": "TravelMate",
+    "companyName": "GlobeTrotter",
+    "id": 20,
+    "description": "Plan trips, find hotels, and explore new destinations. TravelMate makes travel planning simple and fun.",
+    "size": 38,
+    "reviews": 950,
+    "ratingAvg": 4.4,
+    "downloads": "35K+",
+    "ratings": [
+      { "name":"1 star","count":25},
+      { "name":"2 star","count":20},
+      { "name":"3 star","count":150},
+      { "name":"4 star","count":400},
+      { "name":"5 star","count":405}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Ps8pjXhd/GameHub.jpg",
+    "title": "GameHub",
+    "companyName": "FunGames Inc",
+    "id": 21,
+    "description": "Discover, play, and share mobile games in one app. GameHub brings trending games and new releases to your fingertips.",
+    "size": 50,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": "45K+",
+    "ratings": [
+      { "name":"1 star","count":20},
+      { "name":"2 star","count":15},
+      { "name":"3 star","count":200},
+      { "name":"4 star","count":350},
+      { "name":"5 star","count":415}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xtK5kyG6/Health-Tracker.png",
+    "title": "HealthTracker",
+    "companyName": "WellnessSoft",
+    "id": 22,
+    "description": "Monitor heart rate, steps, sleep, and calories. HealthTracker gives insights to help you live healthier.",
+    "size": 42,
+    "reviews": 800,
+    "ratingAvg": 4.5,
+    "downloads": "40K+",
+    "ratings": [
+      { "name":"1 star","count":10},
+      { "name":"2 star","count":15},
+      { "name":"3 star","count":180},
+      { "name":"4 star","count":300},
+      { "name":"5 star","count":395}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hF0dK6VR/MusicBox.jpg",
+    "title": "MusicBox",
+    "companyName": "AudioTech",
+    "id": 23,
+    "description": "Stream music from various genres. Create playlists, discover new artists, and enjoy offline listening.",
+    "size": 36,
+    "reviews": 600,
+    "ratingAvg": 4.4,
+    "downloads": "30K+",
+    "ratings": [
+      { "name":"1 star","count":15},
+      { "name":"2 star","count":10},
+      { "name":"3 star","count":120},
+      { "name":"4 star","count":250},
+      { "name":"5 star","count":305}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MxsjwVGp/Quiz-Master.jpg",
+    "title": "QuizMaster",
+    "companyName": "BrainyApps",
+    "id": 24,
+    "description": "Test your knowledge with fun quizzes. QuizMaster covers multiple topics to challenge your brain daily.",
+    "size": 28,
+    "reviews": 550,
+    "ratingAvg": 4.3,
+    "downloads": "25K+",
+    "ratings": [
+      { "name":"1 star","count":10},
+      { "name":"2 star","count":15},
+      { "name":"3 star","count":100},
+      { "name":"4 star","count":180},
+      { "name":"5 star","count":245}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xKD8rHDB/Movie-Time.png",
+    "title": "MovieTime",
+    "companyName": "CinemaHub",
+    "id": 25,
+    "description": "Explore movie trailers, reviews, and ratings. MovieTime helps you stay updated with latest releases.",
+    "size": 34,
+    "reviews": 700,
+    "ratingAvg": 4.5,
+    "downloads": "28K+",
+    "ratings": [
+      { "name":"1 star","count":10},
+      { "name":"2 star","count":10},
+      { "name":"3 star","count":120},
+      { "name":"4 star","count":220},
+      { "name":"5 star","count":340}
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/23xSdP83/Smart-Home.png",
+    "title": "SmartHome",
+    "companyName": "IoTTech",
+    "id": 26,
+    "description": "Control your smart devices from one app. SmartHome lets you manage lights, temperature, and security easily.",
+    "size": 40,
+    "reviews": 850,
+    "ratingAvg": 4.6,
+    "downloads": "35K+",
+    "ratings": [
+      { "name":"1 star","count":15},
+      { "name":"2 star","count":10},
+      { "name":"3 star","count":130},
+      { "name":"4 star","count":250},
+      { "name":"5 star","count":395}
+    ]
+  }
+]

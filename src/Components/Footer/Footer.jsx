@@ -48,7 +48,7 @@ const Footer = () => {
 
 
     </div> </nav>
-   {/* 🔸 Copyright Bar */}
+   {/*  Copyright Bar */}
  <div className="w-full text-center flex items-center justify-center mt-8 border-t border-gray-700 pt-4 text-white">
         © 2025 Hero Apps. All Rights Reserved.
       </div>
