@@ -1,9 +1,14 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import './Navbar.css'
 import logoImg from '../../assets/logo.png'
 import { FaGithub } from "react-icons/fa";
 const Navbar = () => {
+
+  // go to my github profile
+   const goToMyGitHub=()=>{
+    window.open("https://github.com/badsha103868")
+   } ;
   
     const navLinks = <> 
     <NavLink to='/' className={({isActive})=> isActive? "nav-link active": "nav-link"}><li >Home</li></NavLink>
@@ -28,10 +33,12 @@ const Navbar = () => {
     </div>
 
     {/* navbar left */}
-   <div className='flex items-center gap-1 '>
+   <Link to='/'>
+      <div className='flex items-center gap-1 '>
        <img className='w-[30px] h-[30px] md:w-[40px] md:h-[40px]' src={logoImg} alt="" />
       <a className=" font-bold text-xl text-[#632ee3]">HERO.IO</a>
-   </div>
+    </div>
+   </Link>
   </div>
   {/* navbar center */}
   <div className="navbar-center hidden lg:flex">
@@ -40,8 +47,8 @@ const Navbar = () => {
     </ul>
   </div>
   {/* navbar right */}
-  <div className="navbar-end ">
-    <a className="btn bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] text-white text-base  font-semibold "><FaGithub /> Contribute</a>
+  <div onClick={goToMyGitHub} className="navbar-end ">
+    <a  className="btn bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] text-white text-base  font-semibold "><FaGithub /> Contribute</a>
   </div>
 </div>
   
