@@ -1,10 +1,36 @@
 import React from 'react';
 import iconImg from '../../../assets/icon-downloads.png'
 import ratingImg from '../../../assets/icon-ratings.png'
-const InstallationList = ({app}) => {
-  const {image, title, downloads, ratingAvg,size
+import { removeFromStoredApp } from '../../../Utilities/addToInstall';
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+import { toast } from 'react-toastify';
+
+const MySwal = withReactContent(Swal)
+
+
+
+
+
+const InstallationList = ({app, setInstallList,installList}) => {
+  const {image, title, downloads, ratingAvg,size,id
 
      } = app
+
+     const handleRemove=(id)=>{
+      removeFromStoredApp(id)
+
+      const remainingInstalled = installList.filter(t => t.id !== id)
+      setInstallList(remainingInstalled)
+
+      toast("UnInstall Successful !")
+
+     MySwal.fire({
+      title: "Uninstalled Successful!",
+      text: "You Uninstall the App!",
+      icon: "success"
+       })
+     }
    
   
     
@@ -31,7 +57,7 @@ const InstallationList = ({app}) => {
 
         </div>
       </div>
-       <button className='btn bg-[#00d390] text-white'>Uninstall</button>
+       <button onClick={()=>handleRemove(id)} className='btn bg-[#00d390] text-white'>Uninstall</button>
     </div>
   );
 };

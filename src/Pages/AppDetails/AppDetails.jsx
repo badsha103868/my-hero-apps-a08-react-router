@@ -6,7 +6,10 @@ import ratingImg from '../../assets/icon-ratings.png'
 import AppDetailsChart from '../AppDetailsChart/AppDetailsChart';
 import { toast } from 'react-toastify';
 import { addToAppDB, getStoredApp } from '../../Utilities/addToInstall';
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
+const MySwal = withReactContent(Swal)
  
 
 
@@ -31,6 +34,12 @@ const AppDetails = () => {
     
       addToAppDB(id)
       setInstalled(true)
+
+       MySwal.fire({
+      title: "Installed Successful!",
+      text: "You Install the App!",
+      icon: "success"
+       })
 
     }
 

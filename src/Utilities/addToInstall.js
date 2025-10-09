@@ -11,7 +11,7 @@ const getStoredApp = () => {
   }
 };
 
-
+// storage a add korar jonno
 const addToAppDB = (id) => {
   const storedAppData = getStoredApp();
   const numericId = parseInt(id); 
@@ -26,4 +26,13 @@ const addToAppDB = (id) => {
   }
 };
 
-export { addToAppDB, getStoredApp };
+// storage theka remove korar jonno new function
+
+const removeFromStoredApp =(id)=>{
+  const storedAppData = getStoredApp();
+  const remaining = storedAppData.filter(appId => appId !== id)
+  const remainingData = JSON.stringify(remaining)
+  localStorage.setItem("installed", remainingData)
+}
+
+export { addToAppDB, getStoredApp,  removeFromStoredApp};

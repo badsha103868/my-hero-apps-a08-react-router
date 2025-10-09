@@ -23,11 +23,11 @@ const MyInstallation = () => {
          const myInstallationList = data.filter(appData=> convertedAppData.includes(appData.id))
          setInstallList(myInstallationList)
    },[])
-
+   
 
 
   return (
-  <div className='mt-15 max-w-[1200px] mx-auto'>
+  <div className=' mt-5 md:mt-15 max-w-[1200px] mx-auto p-2'>
     {/* title  */}
     <div className='flex flex-col items-center justify-center mt-20 max-w-[1000px] mx-auto'>
         <h2 className='text-4xl font-bold text-center'>Your Installed Apps</h2>
@@ -49,7 +49,7 @@ const MyInstallation = () => {
 
       {/* installion list */}
       {
-        installList.map(app=> <InstallationList key={app.id} app={app}></InstallationList>)
+        installList.map(app=> <InstallationList key={app.id} app={app} setInstallList={setInstallList} installList={installList}></InstallationList>)
       }
     </div>
   );
