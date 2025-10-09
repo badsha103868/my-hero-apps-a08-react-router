@@ -45,7 +45,7 @@ const AppDetails = () => {
       <div className='flex flex-col md:flex-row  items-center gap-5 mt-5 mb-10  p-2 '>
 
         {/* left part  */}
-      <div className='w-full md:w-2/5'>
+      <div className='w-full md:w-2/5 flex justify-center items-center p-3 mx-auto rounded-xl bg-white'>
         <img className='w-[350px] h-[350px]  rounded-2xl' src={image} alt="" />
       </div>
       
