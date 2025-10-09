@@ -4,6 +4,7 @@ import Footer from '../../Components/Footer/Footer';
 import { Outlet, useNavigation } from 'react-router';
 import { ToastContainer } from 'react-toastify';
 import logoImg from '../../assets/logo.png'
+import ScrollTop from '../../Components/ScrollTop/ScrollTop';
 
   
 
@@ -27,7 +28,7 @@ const Root = () => {
              <span className='text-4xl font-bold'>A D I N G</span>
         </div>)
         }
-         
+         <ScrollTop></ScrollTop>
          <Outlet></Outlet>
 
        <Footer></Footer>

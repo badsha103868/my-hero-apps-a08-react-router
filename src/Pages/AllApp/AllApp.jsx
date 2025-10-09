@@ -2,6 +2,7 @@ import React, { Suspense, useState } from 'react';
 import { Link, useLoaderData } from 'react-router';
 import AllApps from '../AllApps/AllApps';
 import { MdErrorOutline } from "react-icons/md";
+import logoImg from '../../assets/logo.png'
 
 const AllApp = () => {
   const data = useLoaderData()
@@ -9,7 +10,20 @@ const AllApp = () => {
   
   // search state 
   const  [searchValue, setSearchValue] = useState('');
-  
+  const [loading, setLoading] =useState(false)
+
+    const handleSearch =(e) =>{
+          const value = e.target.value;
+          setSearchValue(value)
+          setLoading(true)
+
+      setTimeout(() => {
+      setLoading(false)
+    }, 500);
+    }
+
+
+
   // filter data
   const filteredData = data.filter(appData => appData.title.toLowerCase().includes(searchValue.toLocaleLowerCase()))
 
@@ -49,31 +63,39 @@ const AllApp = () => {
     required
     placeholder="Search Apps" 
     value={searchValue}
-    onChange={(e)=> setSearchValue(e.target.value)}
+    onChange={handleSearch}
     className="text-sm py-1 px-2 w-full"
      />
    </label>
+     </div> 
 
+     {/* search ar por loading showing */}
+     {
+      loading?(<div className="fixed inset-0 flex justify-center items-center bg-white bg-opacity-50 z-50 ">
+         <span className='text-4xl font-bold'>L</span>
+         <img src={logoImg} alt="Loading..."  className="w-10 h-10 animate-spin m-2" /> 
+         <span className='text-4xl font-bold'>A D I N G</span></div>) 
+         : ( <Suspense fallback={<span>Loading....</span>}>
 
-      </div>
-    
-        <Suspense fallback={<span>Loading....</span>}>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8 mb-10'>
+
           {filteredData.length > 0 ? (
-            filteredData.map(appData => <AllApps key={appData.id} appData={appData} />)
-          ) : 
-            (<div className='flex flex-col col-span-full mt-10  justify-center  items-center'> 
+            filteredData.map(appData => <AllApps key={appData.id} appData={appData}></AllApps>)
+          ) : (<div className='flex flex-col col-span-full mt-10  justify-center  items-center'> 
 
                <MdErrorOutline className='text-6xl text-red-500 mb-4' />
 
             <p className="text-center col-span-full text-red-500 text-5xl">App Not Found</p>
            <Link to='/'>
-            <button className='btn bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] text-white py-3 px-5 font-semibold mt-6'>Show All</button>
+            <button className='btn bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] text-white py-3 px-5 font-semibold mt-6'>Show All Apps</button>
              </Link>
             </div>)
           }
         </div>
-      </Suspense>
+      </Suspense>)
+     }
+    
+       
         
 
     </div>

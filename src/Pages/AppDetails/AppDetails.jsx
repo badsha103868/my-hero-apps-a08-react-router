@@ -5,6 +5,7 @@ import ratingImg from '../../assets/icon-ratings.png'
  import reviewImg from '../../assets/icon-review.png'
 import AppDetailsChart from '../AppDetailsChart/AppDetailsChart';
 import { toast } from 'react-toastify';
+import { addToAppDB, getStoredApp } from '../../Utilities/addToInstall';
 
  
 
@@ -21,12 +22,16 @@ const AppDetails = () => {
 
     //  installed button functionality
 
-    const [installed, setInstalled] = useState(false)
+  const [installed, setInstalled] = useState(() => {
+  const installedApps = getStoredApp();
+  return installedApps.includes(singleAppId);
+  });
         
-    const handleInstalled =()=>{
+    const handleInstalled =(id)=>{
+    
+      addToAppDB(id)
       setInstalled(true)
-      //  toast 
-      toast("✅ Installed SuccessFully");
+
     }
 
 
@@ -72,7 +77,7 @@ const AppDetails = () => {
            </div>
          </div>
          {/* installed button */}
-         <button onClick={handleInstalled} className='btn mt-5 text-white bg-[#00d390]'>
+         <button onClick={()=>handleInstalled(id)} disabled={installed} className={`btn mt-5 text-white ${installed ? 'bg-gray-400 cursor-not-allowed' : 'bg-[#00d390]'}`}>
              {installed?"Installed": `Install Now (${size} MB)`}
          </button>
       </div>
