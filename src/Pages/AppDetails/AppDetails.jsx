@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import iconImg from '../../assets/icon-downloads.png'
 import ratingImg from '../../assets/icon-ratings.png'
  import reviewImg from '../../assets/icon-review.png'
 import AppDetailsChart from '../AppDetailsChart/AppDetailsChart';
+import { toast } from 'react-toastify';
+
+ 
+
+
 const AppDetails = () => {
    const {id} = useParams();
   //  undefined ar jonno parseInt kora
@@ -14,12 +19,24 @@ const AppDetails = () => {
   //  console.log(singleApp)
   //  console.log(id)
 
+    //  installed button functionality
+
+    const [installed, setInstalled] = useState(false)
+        
+    const handleInstalled =()=>{
+      setInstalled(true)
+      //  toast 
+      toast("✅ Installed SuccessFully");
+    }
+
+
+
    const {image, title, downloads, reviews, companyName, ratingAvg,ratings,description,size
 
      } = singleApp
      
   return (
-    <div className='max-w-[1200px] mx-auto p-20'>
+    <div className='max-w-[1200px] mx-auto p-5 md:p-12 lg:p-20'>
       <div className='flex flex-col md:flex-row  items-center gap-5 mt-5 mb-10  p-2 '>
 
         {/* left part  */}
@@ -35,26 +52,29 @@ const AppDetails = () => {
          {/* border */}
         <div className='mt-5 border-t-1 border-gray-300 '></div>
 
-         <div className='flex space-y-4 gap-5 mt-5'>
+           {/* download rating part */}
+         <div className='flex items-center space-y-4 gap-5 mt-5'>
            <div  className='space-y-2'>
             <img className='w-6 h-6' src={iconImg} alt="" />
             <h3 className='text-[#627382]'>Downloads</h3>
-            <span className='font-bold text-4xl'>{downloads}</span>
+            <span className='font-bold text-2xl md:text-4xl'>{downloads}</span>
            </div>
-
+       
            <div className='space-y-2'>
             <img className='w-6 h-6' src={ratingImg} alt="" />
             <h3 className='text-[#627382]'>Average Ratings</h3>
-            <span className='font-bold text-4xl'>{ratingAvg}</span>
+            <span className='font-bold text-2xl md:text-4xl'>{ratingAvg}</span>
            </div>
            <div className='space-y-2'>
             <img className='w-6 h-6' src={reviewImg} alt="" />
             <h3 className='text-[#627382]'>Total Reviews</h3>
-            <span className='font-bold text-4xl'>{reviews}</span>
+            <span className='font-bold text-2xl md:text-4xl'>{reviews}</span>
            </div>
          </div>
          {/* installed button */}
-         <button className='btn mt-5 text-white bg-[#00d390]'>Install Now <span>({size} MB)</span></button>
+         <button onClick={handleInstalled} className='btn mt-5 text-white bg-[#00d390]'>
+             {installed?"Installed": `Install Now (${size} MB)`}
+         </button>
       </div>
       </div>
 
