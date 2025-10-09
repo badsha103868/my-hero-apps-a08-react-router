@@ -4,7 +4,7 @@
     "title": "Spotify: Music and Podcasts",
     "companyName": "Spotify AB",
     "id": 1,
-    "description": "Stream millions of songs and podcasts anytime, anywhere. Discover new artists, follow your favorite creators, and download playlists for offline listening with Spotify Premium.",
+    "description": "Spotify is the world’s leading music and podcast streaming platform, offering millions of songs, playlists, and shows from artists and creators all around the globe. Whether you’re into pop hits, lo-fi beats, or motivational podcasts, Spotify brings everything together in one easy-to-use app. You can stream your favorite tracks online or download playlists for offline listening with Spotify Premium.\n\nIts smart recommendation engine learns your taste and curates personalized playlists like \"Discover Weekly\" or \"Release Radar,\" helping you find new artists effortlessly. Spotify also supports collaborative playlists, letting you and your friends create shared soundtracks for any mood or occasion.\n\nThe sleek, minimal design ensures a smooth experience across all devices, from mobile to desktop. With cross-platform sync, you can start listening on your phone and continue on your laptop without missing a beat.\n\nDiscover, stream, and share the soundtrack of your life — only on Spotify. 🎧",
     "size": 85,
     "reviews": "152K",
     "ratingAvg": 4.6,
@@ -13,8 +13,8 @@
       { "name": "1 star", "count": 320000 },
       { "name": "2 star", "count": 210000 },
       { "name": "3 star", "count": 640000 },
-      { "name": "4 star", "count": 2300000 },
-      { "name": "5 star", "count": 11800000 }
+      { "name": "4 star", "count": 230000},
+      { "name": "5 star", "count": 1180000 }
     ]
   },
   {
@@ -22,17 +22,18 @@
     "title": "Instagram",
     "companyName": "Instagram",
     "id": 2,
-    "description": "Capture and share life’s moments with photos and videos. Explore Reels, connect with friends, and stay close to what you love — all on one social platform.",
+    "description":  "Instagram is the ultimate social media platform for sharing photos, videos, and stories with friends, family, and followers worldwide. It allows users to capture moments, add creative filters, and share them instantly on their feed or stories. With features like Reels, IGTV, and Live, Instagram provides endless ways to create, explore, and engage with content. The app also offers personalized recommendations, allowing users to discover trending posts, accounts, and hashtags that match their interests. Instagram’s messaging system makes it easy to communicate privately or in groups. Whether you are a casual user, influencer, or business owner, Instagram provides tools for branding, marketing, and connecting with a global audience. Its sleek, intuitive interface ensures seamless navigation across profiles, feeds, and stories. From sharing everyday moments to building a digital presence, Instagram empowers users to express themselves creatively while staying connected. Download Instagram now to capture, share, and explore life in real-time."
+  ,
     "size": 95,
     "reviews": "165K",
     "ratingAvg": 4.4,
     "downloads": "5B+",
     "ratings": [
-      { "name": "1 star", "count": 7200000 },
+      { "name": "1 star", "count": 720000 },
       { "name": "2 star", "count": 4300000 },
-      { "name": "3 star", "count": 10500000 },
-      { "name": "4 star", "count": 27500000 },
-      { "name": "5 star", "count": 116000000 }
+      { "name": "3 star", "count": 1050000 },
+      { "name": "4 star", "count": 2750000 },
+      { "name": "5 star", "count": 11600000 }
     ]
   },
   {
@@ -40,17 +41,17 @@
     "title": "Duolingo: Language Lessons",
     "companyName": "Duolingo",
     "id": 3,
-    "description": "Learn over 30 languages with bite-sized lessons and fun challenges. Improve reading, writing, and speaking skills daily — all in a playful, interactive way.",
+    "description": "Duolingo is a fun and interactive language learning app that makes mastering new languages engaging and accessible for everyone. Offering over 40 languages, including Spanish, French, Japanese, and more, Duolingo uses gamified lessons to help users learn vocabulary, grammar, pronunciation, and sentence structure. Each lesson incorporates reading, writing, listening, and speaking exercises designed to reinforce learning and boost retention. Duolingo’s adaptive system tracks your progress, adjusts lesson difficulty, and provides personalized practice to strengthen weak areas. The app also includes daily challenges, streak tracking, and reward systems to motivate learners and keep them engaged. Perfect for beginners and advanced users alike, Duolingo offers bite-sized lessons that fit into any schedule. With offline mode, users can continue learning anytime, anywhere. Whether you want to travel, work, or simply explore a new language, Duolingo turns language learning into a fun, rewarding experience. Download Duolingo now and start your language journey today!",
     "size": 75,
     "reviews": "152K",
     "ratingAvg": 4.7,
     "downloads": "500M+",
     "ratings": [
-      { "name": "1 star", "count": 150000 },
-      { "name": "2 star", "count": 90000 },
-      { "name": "3 star", "count": 300000 },
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 3000000 },
       { "name": "4 star", "count": 2500000 },
-      { "name": "5 star", "count": 12000000 }
+      { "name": "5 star", "count": 7200000 }
     ]
   },
   {
@@ -58,7 +59,9 @@
     "title": "Snapchat",
     "companyName": "Snap Inc",
     "id": 4,
-    "description": "Express yourself with fun filters and creative lenses. Chat instantly, share memories, and explore the world through the Snap Map and Stories.",
+    "description": "Snapchat is a fast and fun multimedia messaging app that allows users to send photos, videos, and messages that disappear after being viewed. Known for its playful filters, lenses, and augmented reality (AR) effects, Snapchat offers endless ways to express creativity and share moments with friends. The app features Stories, a 24-hour collection of snaps that can be viewed by friends, and Spotlight, which highlights trending user-generated content from around the world. Snapchat also provides chat, video calling, and group messaging features, making it easy to stay connected in real time. With Snap Map, users can share their location or explore what friends are doing globally. Snapchat’s privacy-focused design ensures that users control who sees their content. From capturing everyday moments to exploring creative AR experiences, Snapchat makes communication visual, interactive, and engaging. Download Snapchat now to share, play, and connect with friends instantly.",
+  
+  
     "size": 110,
     "reviews": "340K",
     "ratingAvg": 4.2,
@@ -76,17 +79,17 @@
     "title": "Canva: Design, Photo & Video",
     "companyName": "Canva",
     "id": 5,
-    "description": "Design anything in minutes — from logos and posters to videos and presentations. Access thousands of templates and edit easily using Canva’s drag-and-drop tools.",
+    "description": "Canva is a powerful design platform that enables users to create stunning visuals, presentations, social media graphics, and videos effortlessly. With thousands of pre-designed templates, fonts, and stock images, Canva makes professional-grade design accessible to everyone, whether you are a beginner or an experienced designer. Users can customize templates for Instagram posts, YouTube thumbnails, flyers, invitations, and more. Canva’s drag-and-drop interface ensures easy editing, while advanced tools allow for photo enhancement, animation, and collaboration with teams. The app also includes a rich library of design elements, icons, and stickers to make content more engaging and visually appealing. With both free and premium features, Canva is suitable for personal projects, business marketing, and educational purposes. Its cloud-based platform ensures that designs can be accessed and edited anytime, anywhere. Download Canva now to unleash your creativity and bring ideas to life with ease and style.",
     "size": 120,
     "reviews": "122K",
     "ratingAvg": 4.8,
     "downloads": "500M+",
     "ratings": [
-      { "name": "1 star", "count": 90000 },
-      { "name": "2 star", "count": 70000 },
-      { "name": "3 star", "count": 200000 },
-      { "name": "4 star", "count": 1500000 },
-      { "name": "5 star", "count": 10300000 }
+      { "name": "1 star", "count": 4000000},
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 7500000 },
+      { "name": "5 star", "count": 9030000 }
     ]
   },
   {
@@ -94,17 +97,19 @@
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 6,
-    "description": "Fast, secure messaging with privacy you can trust. Send unlimited media, create massive group chats, and sync across all your devices seamlessly.",
+    "description": "Telegram is a fast, secure, and versatile messaging app that prioritizes speed and privacy. It allows users to send text messages, voice notes, photos, videos, and files of any type without size limitations. Telegram features private chats, group chats, and channels for broadcasting messages to unlimited audiences. Its cloud-based platform ensures messages are synced across devices, making it easy to switch between phones, tablets, and desktops. Telegram also supports secret chats with end-to-end encryption for enhanced privacy, self-destructing messages, and anonymous forwarding. The app includes customizable themes, bots, and stickers, providing a rich and engaging messaging experience. Perfect for casual users, communities, and professional teams, Telegram combines security, speed, and functionality. With frequent updates and innovative features, Telegram remains at the forefront of modern communication. Download Telegram today to enjoy a fast, reliable, and private messaging experience anytime, anywhere.",
+  
+
     "size": 68,
     "reviews": "120K",
     "ratingAvg": 4.5,
     "downloads": "1B+",
     "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 210000 },
-      { "name": "3 star", "count": 600000 },
-      { "name": "4 star", "count": 3000000 },
-      { "name": "5 star", "count": 7800000 }
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 5100000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 8800000 }
     ]
   },
   {
@@ -112,7 +117,7 @@
     "title": "TikTok",
     "companyName": "TikTok Pte. Ltd.",
     "id": 7,
-    "description": "Create and explore short videos filled with creativity and fun. Join a global community of creators across dance, comedy, lifestyle, and education.",
+    "description": "TikTok is a global video-sharing platform that allows users to create, discover, and share short-form videos with music, effects, and creative editing tools. From dance challenges and comedy sketches to tutorials and viral trends, TikTok provides endless entertainment and a platform for self-expression. Its personalized For You Page (FYP) uses advanced algorithms to recommend videos based on user interests, engagement, and viewing habits. TikTok supports easy video creation with features like filters, stickers, soundtracks, and text overlays, enabling anyone to become a creator instantly. Users can follow friends, like and comment on videos, participate in trending challenges, and collaborate using duets or stitches. TikTok’s community encourages creativity and interaction, making it a hub for culture, trends, and global entertainment. Whether you want to showcase talents, learn something new, or simply scroll for fun, TikTok delivers engaging content tailored to your taste. Download TikTok now and join the world’s fastest-growing video community!",
     "size": 160,
     "reviews": "150K",
     "ratingAvg": 4.3,
@@ -130,7 +135,7 @@
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 8,
-    "description": "Navigate and explore the world with confidence. Get real-time GPS directions, live traffic updates, and detailed routes for driving, walking, or public transport.",
+    "description":  "Google Maps is a comprehensive navigation and mapping application designed to help users explore the world with confidence. It provides accurate driving, walking, cycling, and public transit directions, along with real-time traffic updates, alternative routes, and estimated arrival times. Users can discover nearby restaurants, shops, attractions, and services, complete with reviews, photos, and ratings from the global community. Google Maps also features Street View and satellite imagery for a detailed perspective of locations, as well as offline maps for areas without internet connectivity. The app allows users to save favorite places, create custom lists, and share locations with friends and family. With features like live location sharing and real-time updates, Google Maps ensures safer and more efficient travel. Whether commuting to work, exploring new cities, or planning trips, Google Maps provides a reliable guide for every journey. Download Google Maps now to navigate, explore, and discover with ease.",
     "size": 90,
     "reviews": "165K",
     "ratingAvg": 4.6,
@@ -148,17 +153,17 @@
     "title": "TaskPro",
     "companyName": "DemoSoft",
     "id": 9,
-    "description": "Organize your daily tasks efficiently with TaskPro. Set reminders, track progress, and boost productivity effortlessly.",
+    "description":  "TaskPro is a powerful productivity and task management app designed to help users organize their daily activities, projects, and goals efficiently. With intuitive features like to-do lists, reminders, deadlines, and priority settings, TaskPro ensures that no task is forgotten. Users can categorize tasks into projects, set recurring tasks, and track progress through visual dashboards and timelines. The app supports collaboration, allowing teams to share tasks, assign responsibilities, and monitor completion in real time. TaskPro also includes notes, checklists, and customizable notifications to enhance personal productivity and time management. With its clean and user-friendly interface, users can plan their day, stay focused, and achieve more without feeling overwhelmed. TaskPro is ideal for students, professionals, and anyone seeking to manage their work-life efficiently. Download TaskPro now to take control of your tasks, boost productivity, and stay organized effortlessly.",
     "size": 25,
     "reviews": "12K",
     "ratingAvg": 4.1,
     "downloads": "25M+",
     "ratings": [
-      { "name":"1 star","count":50},
-      { "name":"2 star","count":30},
-      { "name":"3 star","count":200},
-      { "name":"4 star","count":500},
-      { "name":"5 star","count":420}
+      { "name":"1 star","count":500000},
+      { "name":"2 star","count":300000},
+      { "name":"3 star","count":7000000},
+      { "name":"4 star","count":500000},
+      { "name":"5 star","count":420000}
     ]
   },
   {
@@ -166,17 +171,18 @@
     "title": "PhotoLab X",
     "companyName": "PixelWorks",
     "id": 10,
-    "description": "Edit photos like a pro with PhotoLab X. Apply filters, effects, and stickers easily to enhance your pictures.",
+    "description": "PhotoLab X is an advanced photo editing and enhancement app that allows users to transform ordinary pictures into stunning works of art. With hundreds of creative filters, effects, frames, and photo montages, PhotoLab X makes editing fun and easy for beginners and professionals alike. Users can enhance portraits, adjust colors, apply artistic effects, and add text or stickers to create personalized images. The app also supports AI-powered tools for background removal, face morphing, and automated improvements, saving time while delivering professional results. Social sharing features enable users to instantly post their creations on Instagram, Facebook, or messaging platforms. PhotoLab X is perfect for capturing memories, enhancing selfies, or designing creative graphics. Its intuitive interface ensures smooth navigation and quick editing, making it a favorite among photography enthusiasts. Download PhotoLab X now to unleash your creativity and turn every photo into a masterpiece.",
+  
     "size": 30,
     "reviews": "8K",
     "ratingAvg": 4.3,
     "downloads": "45M+",
     "ratings": [
-      { "name":"1 star","count":30},
-      { "name":"2 star","count":20},
-      { "name":"3 star","count":150},
-      { "name":"4 star","count":300},
-      { "name":"5 star","count":300}
+      { "name":"1 star","count":800000},
+      { "name":"2 star","count":700000},
+      { "name":"3 star","count":900000},
+      { "name":"4 star","count":1000000},
+      { "name":"5 star","count":1100000}
     ]
   },
    {
@@ -184,17 +190,17 @@
     "title": "FitTrack",
     "companyName": "Healthify",
     "id": 11,
-    "description": "Track your workouts, steps, and calories with FitTrack. Stay motivated and achieve fitness goals every day.",
+    "description": "FitTrack is a comprehensive health and fitness tracking app designed to help users monitor their physical activity, nutrition, and overall wellness. The app tracks steps, calories burned, distance traveled, and active minutes, while also providing personalized fitness goals and workout plans. Users can log meals, water intake, and monitor macronutrients to maintain a balanced diet. FitTrack integrates with wearable devices to collect heart rate, sleep patterns, and other health metrics, giving users a holistic view of their lifestyle. With progress charts, reminders, and motivational insights, FitTrack encourages consistent habits and improvement. Whether you are a beginner, athlete, or health-conscious individual, FitTrack provides tools to stay accountable, motivated, and informed. Download FitTrack now to take control of your fitness journey, improve health, and achieve your wellness goals effectively.",
     "size": 40,
     "reviews": "9.5K",
     "ratingAvg": 4.5,
     "downloads": "60M+",
     "ratings": [
-      { "name":"1 star","count":20},
-      { "name":"2 star","count":15},
-      { "name":"3 star","count":200},
-      { "name":"4 star","count":350},
-      { "name":"5 star","count":365}
+      { "name":"1 star","count":200000},
+      { "name":"2 star","count":1000000},
+      { "name":"3 star","count":1400000},
+      { "name":"4 star","count":1600000},
+      { "name":"5 star","count":1800000}
     ]
   },
   {
@@ -202,17 +208,17 @@
     "title": "NoteMaster",
     "companyName": "WriteWell",
     "id": 12,
-    "description": "Write, save, and organize your notes easily. NoteMaster lets you access notes across devices seamlessly.",
+    "description":  "NoteMaster is a versatile note-taking and organization app designed to help users capture ideas, reminders, and important information quickly and efficiently. With features like rich text formatting, checklists, voice notes, and image attachments, NoteMaster allows you to organize your thoughts in any format you prefer. Users can categorize notes into notebooks, tag items for easy searching, and set reminders to ensure nothing is forgotten. The app also supports cloud synchronization, enabling access to notes across multiple devices seamlessly. NoteMaster’s clean and intuitive interface enhances productivity and minimizes distractions, making it ideal for students, professionals, and creatives alike. Whether you are jotting down meeting minutes, planning a project, or maintaining a personal journal, NoteMaster provides the tools to stay organized and focused. Download NoteMaster now to capture ideas, manage tasks, and streamline your daily workflow effortlessly.",
     "size": 22,
     "reviews": "60K",
     "ratingAvg": 4.2,
     "downloads": "15M+",
     "ratings": [
-      { "name":"1 star","count":15},
-      { "name":"2 star","count":10},
-      { "name":"3 star","count":100},
-      { "name":"4 star","count":250},
-      { "name":"5 star","count":225}
+      { "name":"1 star","count":150000},
+      { "name":"2 star","count":100000},
+      { "name":"3 star","count":300000},
+      { "name":"4 star","count":450000},
+      { "name":"5 star","count":500000}
     ]
   },
   {
@@ -220,17 +226,17 @@
     "title": "BudgetBuddy",
     "companyName": "FinTech Labs",
     "id": 13,
-    "description": "Manage expenses and track savings effortlessly. BudgetBuddy provides insightful charts to control your finances.",
+    "description": "BudgetBuddy is a comprehensive personal finance and budgeting app that helps users track expenses, manage income, and plan for financial goals with ease. The app allows users to create budgets, categorize transactions, and visualize spending patterns through interactive charts and reports. Users can set savings targets, receive alerts for upcoming bills, and track progress towards financial milestones. BudgetBuddy also supports syncing with bank accounts, credit cards, and digital wallets to provide an accurate overview of finances in real time. With a user-friendly interface and intuitive design, the app makes financial management simple and stress-free. Ideal for individuals, families, and professionals, BudgetBuddy empowers users to take control of their money, reduce unnecessary expenses, and make informed financial decisions. Download BudgetBuddy today to manage your finances efficiently and achieve your monetary goals.",
     "size": 35,
     "reviews": "12K",
     "ratingAvg": 4.4,
     "downloads": "35M+",
     "ratings": [
-      { "name":"1 star","count":25},
-      { "name":"2 star","count":20},
-      { "name":"3 star","count":150},
-      { "name":"4 star","count":400},
-      { "name":"5 star","count":405}
+      { "name":"1 star","count":300000},
+      { "name":"2 star","count":1000000},
+      { "name":"3 star","count":1300000},
+      { "name":"4 star","count":600000},
+      { "name":"5 star","count":300000}
     ]
   },
   {
@@ -238,17 +244,17 @@
     "title": "RecipeBook",
     "companyName": "Foodie Inc",
     "id": 14,
-    "description": "Discover thousands of recipes and cooking tips. Save favorites and create your own digital cookbook.",
+    "description": "RecipeBook is the ultimate culinary companion app, offering a vast collection of recipes from around the world. Users can explore dishes for breakfast, lunch, dinner, desserts, and beverages, complete with detailed ingredients, step-by-step instructions, and cooking tips. RecipeBook allows users to save favorite recipes, create shopping lists, and categorize meals based on cuisine, dietary preferences, or difficulty level. The app also includes video tutorials, nutritional information, and customizable portions to suit individual needs. Whether you are a beginner cook or an experienced chef, RecipeBook inspires creativity in the kitchen and makes meal planning effortless. Users can share recipes with friends, rate dishes, and discover trending meals from the global community. Download RecipeBook now to explore, cook, and enjoy delicious meals while enhancing your culinary skills.",
     "size": 28,
     "reviews": "90K",
     "ratingAvg": 4.5,
     "downloads": "40M+",
     "ratings": [
-      { "name":"1 star","count":10},
-      { "name":"2 star","count":15},
-      { "name":"3 star","count":120},
-      { "name":"4 star","count":320},
-      { "name":"5 star","count":435}
+      { "name":"1 star","count":1000000},
+      { "name":"2 star","count":500000},
+      { "name":"3 star","count":800000},
+      { "name":"4 star","count":850000},
+      { "name":"5 star","count":1150000}
     ]
   },
   {
@@ -256,17 +262,17 @@
     "title": "MindCalm",
     "companyName": "ZenApps",
     "id": 15,
-    "description": "Relax and meditate with guided sessions. MindCalm helps reduce stress and improve focus daily.",
+    "description": "MindCalm is a mindfulness and meditation app designed to help users reduce stress, improve focus, and enhance overall mental well-being. The app offers guided meditation sessions, breathing exercises, sleep stories, and relaxation techniques suitable for all experience levels. Users can choose sessions based on duration, goal, or mood, making it easy to incorporate mindfulness into daily routines. MindCalm also provides progress tracking, reminders, and motivational insights to encourage consistent practice. With calming soundscapes, ambient music, and personalized recommendations, the app creates a serene environment for meditation and mental relaxation. MindCalm is ideal for professionals, students, or anyone seeking balance and mental clarity in a busy world. Download MindCalm today to cultivate mindfulness, reduce anxiety, and nurture a calm, focused mind.",
     "size": 26,
     "reviews": "80K",
     "ratingAvg": 4.6,
     "downloads": "30M+",
     "ratings": [
-      { "name":"1 star","count":15},
-      { "name":"2 star","count":10},
-      { "name":"3 star","count":90},
-      { "name":"4 star","count":200},
-      { "name":"5 star","count":485}
+      { "name":"1 star","count":1500000},
+      { "name":"2 star","count":100000},
+      { "name":"3 star","count":900000},
+      { "name":"4 star","count":200000},
+      { "name":"5 star","count":4850000}
     ]
   },
   {
@@ -274,17 +280,17 @@
     "title": "LanguagePal",
     "companyName": "LinguaTech",
     "id": 16,
-    "description": "Learn new languages fast with interactive lessons and quizzes. Practice speaking, listening, and writing skills daily.",
+    "description": "LanguagePal is an innovative language learning app that helps users master new languages through interactive lessons, exercises, and immersive practice. Supporting multiple languages, LanguagePal combines reading, writing, listening, and speaking activities to strengthen vocabulary, grammar, and pronunciation. The app features gamified challenges, quizzes, and progress tracking to motivate learners and make studying enjoyable. LanguagePal also offers conversation practice with AI tutors, cultural insights, and real-world dialogues to improve communication skills effectively. Users can set daily learning goals, track streaks, and review weak areas for better retention. Perfect for travelers, students, and professionals, LanguagePal transforms language learning into an engaging and effective experience. Download LanguagePal now to explore new languages, communicate confidently, and expand your global horizons.",
     "size": 33,
     "reviews": "70K",
     "ratingAvg": 4.3,
     "downloads": "25M+",
     "ratings": [
-      { "name":"1 star","count":20},
-      { "name":"2 star","count":10},
-      { "name":"3 star","count":120},
-      { "name":"4 star","count":210},
-      { "name":"5 star","count":340}
+      { "name":"1 star","count":200000},
+      { "name":"2 star","count":1000000},
+      { "name":"3 star","count":1200000},
+      { "name":"4 star","count":2100000},
+      { "name":"5 star","count":3400000}
     ]
   },
   {
@@ -292,17 +298,17 @@
     "title": "WeatherNow",
     "companyName": "SkyTech",
     "id": 17,
-    "description": "Get accurate and up-to-date weather forecasts. WeatherNow alerts you about storms, rain, or heat waves instantly.",
+    "description": "WeatherNow is a reliable and feature-rich weather forecasting app designed to provide accurate and real-time weather updates for locations worldwide. The app delivers hourly, daily, and weekly forecasts, including temperature, precipitation, wind speed, humidity, and UV index. WeatherNow also provides severe weather alerts and notifications to keep users prepared for storms, extreme heat, or cold conditions. Its interactive radar maps, satellite imagery, and weather graphs allow users to track weather patterns visually and make informed decisions. With customizable settings, users can choose their preferred units, themes, and locations for a personalized experience. Ideal for commuters, travelers, outdoor enthusiasts, and anyone planning their day, WeatherNow ensures that users stay informed and safe. Download WeatherNow now to get accurate weather forecasts, alerts, and insights anytime, anywhere.",
     "size": 24,
     "reviews": "55.5K",
     "ratingAvg": 4.4,
     "downloads": "20M+",
     "ratings": [
-      { "name":"1 star","count":5},
-      { "name":"2 star","count":10},
-      { "name":"3 star","count":80},
-      { "name":"4 star","count":180},
-      { "name":"5 star","count":275}
+      { "name":"1 star","count":500000},
+      { "name":"2 star","count":1000000},
+      { "name":"3 star","count":8000000},
+      { "name":"4 star","count":18000000},
+      { "name":"5 star","count":275000000}
     ]
   },
   {
@@ -310,17 +316,17 @@
     "title": "WorkoutX",
     "companyName": "FitLabs",
     "id": 18,
-    "description": "Personalized workout plans and exercise tracking. WorkoutX helps you reach fitness goals efficiently.",
+    "description": "WorkoutX is a comprehensive fitness app designed to help users achieve their health and fitness goals through guided workouts, personalized plans, and progress tracking. The app features exercises for strength training, cardio, flexibility, and bodyweight routines suitable for beginners, intermediates, and advanced users. WorkoutX provides video demonstrations, step-by-step instructions, and tips to ensure proper form and maximize results. Users can customize workouts based on time, intensity, and equipment availability, while tracking performance metrics, calories burned, and milestones. The app also includes challenges, reminders, and motivational insights to maintain consistency and engagement. Whether your goal is weight loss, muscle gain, or overall wellness, WorkoutX offers the tools to stay active and achieve results. Download WorkoutX today to create a personalized fitness routine, track progress, and stay motivated on your health journey.",
     "size": 45,
     "reviews": "100K",
     "ratingAvg": 4.5,
     "downloads": "55M+",
     "ratings": [
-      { "name":"1 star","count":15},
-      { "name":"2 star","count":10},
-      { "name":"3 star","count":150},
-      { "name":"4 star","count":400},
-      { "name":"5 star","count":425}
+      { "name":"1 star","count":1500000},
+      { "name":"2 star","count":1000000},
+      { "name":"3 star","count":15000000},
+      { "name":"4 star","count":40000000},
+      { "name":"5 star","count":42500000}
     ]
   },
   {
@@ -328,17 +334,17 @@
     "title": "DailyJournal",
     "companyName": "WriteMore",
     "id": 19,
-    "description": "Keep track of your thoughts, ideas, and daily events. DailyJournal is simple, private, and secure.",
+    "description": "DailyJournal is a modern journaling app that allows users to capture thoughts, reflections, and experiences in a secure and organized digital space. With features like rich text formatting, mood tracking, photo attachments, and customizable templates, DailyJournal provides a flexible platform for personal expression. Users can categorize entries by date, tag topics, and set reminders to maintain consistent journaling habits. The app also includes password protection, cloud synchronization, and export options to ensure privacy and accessibility across devices. DailyJournal encourages mindfulness, reflection, and goal setting, making it ideal for students, professionals, and anyone seeking to document their life journey. Whether writing about daily experiences, personal growth, or creative ideas, DailyJournal makes journaling easy, engaging, and meaningful. Download DailyJournal now to cultivate a daily writing habit, capture memories, and enhance self-awareness.",
     "size": 20,
     "reviews": "50K",
     "ratingAvg": 4.2,
     "downloads": "15M+",
     "ratings": [
-      { "name":"1 star","count":10},
-      { "name":"2 star","count":8},
-      { "name":"3 star","count":60},
-      { "name":"4 star","count":200},
-      { "name":"5 star","count":222}
+      { "name":"1 star","count":1000000},
+      { "name":"2 star","count":8000000},
+      { "name":"3 star","count":6000000},
+      { "name":"4 star","count":20000000},
+      { "name":"5 star","count":22200000}
     ]
   },
   {
@@ -346,17 +352,17 @@
     "title": "TravelMate",
     "companyName": "GlobeTrotter",
     "id": 20,
-    "description": "Plan trips, find hotels, and explore new destinations. TravelMate makes travel planning simple and fun.",
+    "description":  "TravelMate is a comprehensive travel companion app designed to make every journey seamless and enjoyable. It offers detailed information about destinations, including attractions, restaurants, accommodations, transportation, and local experiences. Users can plan trips, create itineraries, book hotels, and track expenses in one convenient platform. TravelMate also provides offline maps, travel guides, and real-time updates for weather, flights, and traffic conditions, ensuring a smooth travel experience. The app allows users to discover hidden gems, read reviews from fellow travelers, and share experiences with the community. TravelMate is perfect for solo travelers, families, and adventure seekers who want to explore new places efficiently and confidently. Download TravelMate today to plan, navigate, and enjoy your travels with ease and confidence.",
     "size": 38,
     "reviews": "99.5K",
     "ratingAvg": 4.4,
     "downloads": "35M+",
     "ratings": [
-      { "name":"1 star","count":25},
-      { "name":"2 star","count":20},
-      { "name":"3 star","count":150},
-      { "name":"4 star","count":400},
-      { "name":"5 star","count":405}
+      { "name":"1 star","count":2500000},
+      { "name":"2 star","count":2000000},
+      { "name":"3 star","count":15000000},
+      { "name":"4 star","count":40000000},
+      { "name":"5 star","count":40500000}
     ]
   },
   {
@@ -364,17 +370,17 @@
     "title": "GameHub",
     "companyName": "FunGames Inc",
     "id": 21,
-    "description": "Discover, play, and share mobile games in one app. GameHub brings trending games and new releases to your fingertips.",
+    "description": "GameHub is a dynamic gaming platform that brings a vast collection of games, community interaction, and personalized recommendations into one app. Users can explore action, strategy, puzzle, simulation, and multiplayer games suited to all skill levels. GameHub provides detailed game reviews, ratings, and video previews to help users choose their next favorite game. Players can connect with friends, join tournaments, track achievements, and share high scores within the app’s social community. GameHub also offers curated recommendations based on user preferences and gameplay history, ensuring a constantly engaging experience. With intuitive navigation, performance optimization, and regular updates, GameHub keeps gamers entertained and informed. Whether casual or competitive, GameHub is the ultimate destination for discovering, playing, and sharing games. Download GameHub now to immerse yourself in a world of gaming excitement and fun.",
     "size": 50,
     "reviews": "111K",
     "ratingAvg": 4.3,
     "downloads": "45M+",
     "ratings": [
-      { "name":"1 star","count":20},
-      { "name":"2 star","count":15},
-      { "name":"3 star","count":200},
-      { "name":"4 star","count":350},
-      { "name":"5 star","count":415}
+      { "name":"1 star","count":2000000},
+      { "name":"2 star","count":1500000},
+      { "name":"3 star","count":20000000},
+      { "name":"4 star","count":35000000},
+      { "name":"5 star","count":41500000}
     ]
   },
   {
@@ -382,17 +388,17 @@
     "title": "HealthTracker",
     "companyName": "WellnessSoft",
     "id": 22,
-    "description": "Monitor heart rate, steps, sleep, and calories. HealthTracker gives insights to help you live healthier.",
+    "description": "HealthTracker is a comprehensive wellness app that allows users to monitor and improve their overall health. It tracks daily activities such as steps, calories burned, sleep patterns, heart rate, and hydration levels, providing a holistic view of well-being. The app offers personalized recommendations, goal setting, and reminders to encourage healthier habits and maintain consistency. Users can log workouts, meals, and other health metrics, while viewing progress charts and analytics to stay motivated. HealthTracker integrates with wearable devices for accurate data collection and provides insights to optimize fitness and lifestyle choices. Ideal for fitness enthusiasts, professionals, and anyone seeking to lead a healthier life, HealthTracker empowers users to take control of their health journey. Download HealthTracker now to track your wellness, improve habits, and achieve your health goals efficiently.",
     "size": 42,
     "reviews": "81K",
     "ratingAvg": 4.5,
     "downloads": "40M+",
     "ratings": [
-      { "name":"1 star","count":10},
-      { "name":"2 star","count":15},
-      { "name":"3 star","count":180},
-      { "name":"4 star","count":300},
-      { "name":"5 star","count":395}
+      { "name":"1 star","count":1000000},
+      { "name":"2 star","count":1500000},
+      { "name":"3 star","count":18000000},
+      { "name":"4 star","count":30000000},
+      { "name":"5 star","count":39500000}
     ]
   },
   {
@@ -400,17 +406,17 @@
     "title": "MusicBox",
     "companyName": "AudioTech",
     "id": 23,
-    "description": "Stream music from various genres. Create playlists, discover new artists, and enjoy offline listening.",
+    "description": "MusicBox is a versatile music streaming app that lets users explore, listen, and enjoy millions of songs from artists around the world. The app offers curated playlists, trending charts, and personalized recommendations based on listening habits. Users can create their own playlists, download tracks for offline listening, and explore different genres, moods, and artists effortlessly. MusicBox also supports high-quality audio streaming, social sharing, and radio stations to enhance the listening experience. With its user-friendly interface and seamless navigation, MusicBox ensures a smooth and immersive music experience on any device. Whether you want to discover new artists, enjoy favorite hits, or create the perfect soundtrack for every moment, MusicBox provides endless entertainment. Download MusicBox now to experience music your way and enjoy unlimited streaming anytime, anywhere.",
     "size": 36,
     "reviews": "65K",
     "ratingAvg": 4.4,
     "downloads": "30M+",
     "ratings": [
-      { "name":"1 star","count":15},
-      { "name":"2 star","count":10},
-      { "name":"3 star","count":120},
-      { "name":"4 star","count":250},
-      { "name":"5 star","count":305}
+      { "name":"1 star","count":1500000},
+      { "name":"2 star","count":1000000},
+      { "name":"3 star","count":12000000},
+      { "name":"4 star","count":25000000},
+      { "name":"5 star","count":30500000}
     ]
   },
   {
@@ -418,17 +424,19 @@
     "title": "QuizMaster",
     "companyName": "BrainyApps",
     "id": 24,
-    "description": "Test your knowledge with fun quizzes. QuizMaster covers multiple topics to challenge your brain daily.",
+    "description": "QuizMaster is an engaging quiz and trivia app designed to challenge your knowledge and improve learning in a fun way. The app offers a wide range of categories including general knowledge, science, history, sports, entertainment, and more. Users can take quizzes at different difficulty levels, participate in daily challenges, and track progress to enhance their skills over time. QuizMaster also allows multiplayer competitions, leaderboards, and timed quizzes to make learning competitive and interactive. With regular updates and new quizzes added frequently, users are always presented with fresh content to test their knowledge. QuizMaster is perfect for students, educators, or anyone who enjoys testing themselves and learning new facts. Download QuizMaster now to have fun, challenge your brain, and sharpen your knowledge every day.",
+  
+  
     "size": 28,
     "reviews": "55.5K",
     "ratingAvg": 4.3,
     "downloads": "25M+",
     "ratings": [
-      { "name":"1 star","count":10},
-      { "name":"2 star","count":15},
-      { "name":"3 star","count":100},
-      { "name":"4 star","count":180},
-      { "name":"5 star","count":245}
+      { "name":"1 star","count":1000000},
+      { "name":"2 star","count":1500000},
+      { "name":"3 star","count":10000000},
+      { "name":"4 star","count":18000000},
+      { "name":"5 star","count":24500000}
     ]
   },
   {
@@ -436,17 +444,18 @@
     "title": "MovieTime",
     "companyName": "CinemaHub",
     "id": 25,
-    "description": "Explore movie trailers, reviews, and ratings. MovieTime helps you stay updated with latest releases.",
+    "description": "MovieTime is a comprehensive movie discovery and streaming companion app that helps users explore films, TV shows, and series across genres and languages. The app provides detailed information including plot summaries, cast details, ratings, reviews, and trailers to help users make informed viewing choices. MovieTime allows users to create watchlists, track recently watched movies, and receive personalized recommendations based on viewing habits. With integrated notifications for new releases, showtimes, and trending content, users never miss their favorite movies. The app also features curated lists, user reviews, and social sharing options to engage with fellow movie enthusiasts. MovieTime is ideal for casual viewers, cinephiles, and entertainment lovers seeking a seamless movie experience. Download MovieTime now to discover, watch, and enjoy movies anytime, anywhere."
+  ,
     "size": 34,
     "reviews": "74K",
     "ratingAvg": 4.5,
     "downloads": "28M+",
     "ratings": [
-      { "name":"1 star","count":10},
-      { "name":"2 star","count":10},
-      { "name":"3 star","count":120},
-      { "name":"4 star","count":220},
-      { "name":"5 star","count":340}
+      { "name":"1 star","count":1000000},
+      { "name":"2 star","count":1000000},
+      { "name":"3 star","count":12000000},
+      { "name":"4 star","count":22000000},
+      { "name":"5 star","count":34000000}
     ]
   },
   {
@@ -454,17 +463,17 @@
     "title": "SmartHome",
     "companyName": "IoTTech",
     "id": 26,
-    "description": "Control your smart devices from one app. SmartHome lets you manage lights, temperature, and security easily.",
+    "description": "SmartHome is an intuitive home automation app that enables users to control and manage smart devices conveniently from a single platform. The app supports smart lighting, thermostats, security cameras, appliances, and other IoT devices, allowing users to create schedules, automate routines, and monitor their home remotely. SmartHome features real-time alerts, energy usage tracking, and device status updates to ensure safety, efficiency, and convenience. Users can customize automation rules, control devices via voice commands, and integrate with popular smart ecosystems for seamless operation. With its user-friendly interface and secure cloud integration, SmartHome simplifies home management and enhances lifestyle comfort. Whether for energy efficiency, security, or convenience, SmartHome empowers users to create a connected, intelligent living environment. Download SmartHome now to manage your smart devices effortlessly and enjoy a modern, automated home experience.",
     "size": 40,
     "reviews": "88.5K",
     "ratingAvg": 4.6,
     "downloads": "35M+",
     "ratings": [
-      { "name":"1 star","count":15},
-      { "name":"2 star","count":10},
-      { "name":"3 star","count":130},
-      { "name":"4 star","count":250},
-      { "name":"5 star","count":395}
+      { "name":"1 star","count":1500000},
+      { "name":"2 star","count":1000000},
+      { "name":"3 star","count":13000000},
+      { "name":"4 star","count":25000000},
+      { "name":"5 star","count":39500000}
     ]
   },
    {
@@ -472,17 +481,17 @@
     "title": "PhotoEdit Pro",
     "companyName": "PixLab",
     "id": 27,
-    "description": "PhotoEdit Pro gives you powerful editing tools to enhance, retouch, and transform your photos with ease. Create stunning visuals instantly.",
+    "description":"PhotoEdit Pro is a professional photo editing app that offers a wide range of tools and features to enhance and transform images. Users can apply filters, adjust brightness, contrast, saturation, and other settings, as well as crop, rotate, and resize photos with precision. The app also supports advanced features like layers, blending modes, text overlay, stickers, and creative effects to produce stunning visuals. PhotoEdit Pro includes AI-powered tools for background removal, portrait enhancement, and automated corrections, making professional-quality editing accessible to everyone. Users can save projects in various formats, share edited images on social media, and collaborate with others. PhotoEdit Pro is ideal for photographers, designers, and creative enthusiasts who want to bring their vision to life. Download PhotoEdit Pro now to edit, enhance, and create stunning photos effortlessly.",
     "size": 48,
     "reviews": "103.2K",
     "ratingAvg": 4.6,
     "downloads": "42M+",
     "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 15 },
-      { "name": "3 star", "count": 130 },
-      { "name": "4 star", "count": 390 },
-      { "name": "5 star", "count": 645 }
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 13000000 },
+      { "name": "4 star", "count": 39000000 },
+      { "name": "5 star", "count": 64500000 }
     ]
   },
   {
@@ -490,17 +499,17 @@
     "title": "EduLearn",
     "companyName": "SmartStudy",
     "id": 28,
-    "description": "EduLearn offers online lessons, quizzes, and video tutorials from top educators. Learn new skills at your own pace anytime, anywhere.",
+    "description": "EduLearn is an innovative educational app designed to provide students, professionals, and lifelong learners with access to high-quality learning resources across multiple subjects. The app offers video lessons, interactive quizzes, practice exercises, and detailed explanations to enhance comprehension and retention. Users can track their progress, set learning goals, and receive personalized recommendations based on performance. EduLearn covers a wide range of topics including mathematics, science, language, coding, and more, catering to different learning levels and needs. The app also supports offline access, study reminders, and collaborative learning with peers to maximize productivity. EduLearn’s intuitive interface and engaging content make learning effective, enjoyable, and accessible anywhere. Download EduLearn now to expand knowledge, sharpen skills, and achieve academic or professional goals efficiently.",
     "size": 52,
     "reviews": "129.5K",
     "ratingAvg": 4.7,
     "downloads": "50M+",
     "ratings": [
       { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 140 },
-      { "name": "4 star", "count": 420 },
-      { "name": "5 star", "count": 905 }
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 14000000 },
+      { "name": "4 star", "count": 42000000 },
+      { "name": "5 star", "count": 90500000 }
     ]
   }
 ]

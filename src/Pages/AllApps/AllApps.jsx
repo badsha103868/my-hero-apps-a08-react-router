@@ -4,7 +4,7 @@ import ratingImg from '../../assets/icon-ratings.png'
 import { Link } from 'react-router';
 
 const AllApps = ({appData}) => {
- 
+    
   const {image, title,downloads, ratingAvg, id}= appData
 
   return (
