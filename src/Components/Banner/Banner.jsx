@@ -17,10 +17,10 @@ const Banner = () => {
   }
   return (
   <div className=' '>
-      <div className='flex flex-col items-center justify-center mt-20 max-w-[1000px] mx-auto'>
-      <h1 className='text-7xl font-bold text-center '>We Build <br /> <span className='text-[#632ee3]'>Productive</span> Apps</h1>
+      <div className='flex flex-col items-center justify-center mt-5 md:mt-10 lg:mt-20 max-w-[1000px] mx-auto px-1'>
+      <h1 className='text-3xl md:text-5xl  lg:text-7xl font-bold text-center '>We Build <br /> <span className='text-[#632ee3]'>Productive</span> Apps</h1>
 
-      <p className='text-center text-[#627382] mt-4 '>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.  Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+      <p className='text-center  text-[#627382] mt-4 '>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.  Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
       <div className='mt-10 flex gap-2'>
         <button onClick={goToPlayStore} className='btn'> <img className='w-5 h-5' src={playImg} alt="" />Google Play</button>
         <button onClick={goToAppStore} className='btn'> <img className='w-5 h-5' src={appStoreImg} alt="" /> App Store</button>

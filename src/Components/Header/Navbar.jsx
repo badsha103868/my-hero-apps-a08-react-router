@@ -19,7 +19,7 @@ const Navbar = () => {
  
   </>
   return (
-    <div className="navbar bg-[#ffffff] shadow-sm py-2 md:py-3 px-3 md:px-10 lg:px-15 ">
+    <div className="navbar bg-[#ffffff] shadow-sm py-2 md:py-3 px-1 md:px-10 lg:px-15 ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,8 +35,8 @@ const Navbar = () => {
     {/* navbar left */}
    <Link to='/'>
       <div className='flex items-center gap-1 '>
-       <img className='w-[30px] h-[30px] md:w-[40px] md:h-[40px]' src={logoImg} alt="" />
-      <h3 className=" font-bold text-xl text-[#632ee3]">HERO.IO</h3>
+       <img className='w-[25px] h-[25px] md:w-[40px] md:h-[40px]' src={logoImg} alt="" />
+      <h3 className=" font-bold text-lg md:text-xl text-[#632ee3]">HERO.IO</h3>
     </div>
    </Link>
   </div>

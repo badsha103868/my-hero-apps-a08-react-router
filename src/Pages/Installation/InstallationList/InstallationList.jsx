@@ -35,23 +35,23 @@ const InstallationList = ({app, setInstallList,installList}) => {
   
     
   return (
-    <div className='flex justify-between items-center p-5 mb-3 bg-white rounded-xl'>
+    <div className='flex justify-between items-center p-3 md:p-5 mb-3 bg-white rounded-xl'>
       <div className='flex items-center gap-2'>
-        <img className='w-[60px] h-[60px] rounded-xl' src={image} alt="" />
+        <img className='w-[40px] md:w-[60px] h-[40px]  md:h-[60px] rounded-xl' src={image} alt="" />
         <div>
-          <h3 className='card-title'>{title}</h3>
-        <div className='flex gap-2 mt-2'>
+          <h3 className='text-lg md:text-xl font-medium '>{title}</h3>
+        <div className='flex gap-1 md:gap-2 mt-2'>
           <div className='flex  items-center gap-1'> 
              <img className='w-3 h-3' src={iconImg} alt="" />
-               <span className='font-medium text-base text-[#00d390]'>{downloads}</span>
+               <span className='font-medium text-sm md:text-xl text-[#00d390]'>{downloads}</span>
             </div>
           
           <div className='flex  items-center gap-1'> 
              <img className='w-3 h-3' src={ratingImg} alt="" />
-               <span className='font-medium text-base text-[#ff8811]'>{ratingAvg}</span>
+               <span className='font-medium text-sm md:text-xl text-[#ff8811]'>{ratingAvg}</span>
             </div>
              
-             <span className='text-gray-400 text-base font-medium'>{size} MB</span>
+             <span className='text-gray-400 text-sm md:text-xl font-medium'>{size} MB</span>
           
           </div>
 

@@ -32,16 +32,18 @@ const AllApp = () => {
   
   return (
     <div className='mt-15 max-w-[1200px] mx-auto'>
-      <div className='flex flex-col items-center justify-center mt-20 max-w-[1000px] mx-auto'>
-        <h2 className='text-5xl font-bold text-center'>Our All Applications</h2>
-       <p className='text-center text-[#627382] mt-4 '>Explore All Apps on the Market developed by us. We code for Millions</p>
+      <div className='flex flex-col items-center justify-center mt-12 md:mt-20 max-w-[1000px] mx-auto'>
+
+        <h2 className='text-2xl md:text-4xl lg:text-5xl font-bold text-center'>Our All Applications</h2>
+
+       <p className='text-center text-sm md:text-xl text-[#627382] mt-4 '>Explore All Apps on the Market developed by us. We code for Millions</p>
       </div>
 
-    <div className='flex justify-between items-center mt-10  mb-5'>
-        <span className='font-semibold text-2xl '>({data.length}) Apps Found</span>
+    <div className='flex justify-between items-center mt-5 md:mt-10  mb-5 p-2'>
+        <span className='font-medium md:font-semibold text-xl md:text-2xl '>({data.length}) Apps Found</span>
 
     {/* search field */}
-      <label className="input input-sm w-64 max-w-xs flex items-center gap-2">
+      <label className="input input-sm w-40 md:w-50 lg:w-64 max-w-xs flex items-center gap-2">
       <svg
        className="h-4 w-4 opacity-50"
       xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +79,7 @@ const AllApp = () => {
          <span className='text-4xl font-bold'>A D I N G</span></div>) 
          : ( <Suspense fallback={<span>Loading....</span>}>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8 mb-10'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8 p-2 mb-10'>
 
           {filteredData.length > 0 ? (
             filteredData.map(appData => <AllApps key={appData.id} appData={appData}></AllApps>)

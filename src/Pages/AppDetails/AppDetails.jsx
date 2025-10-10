@@ -50,39 +50,43 @@ const AppDetails = () => {
      } = singleApp
      
   return (
-    <div className='max-w-[1200px] mx-auto p-5 md:p-12 lg:p-20'>
+    <div className='max-w-[1200px] mx-auto p-3 md:p-12 lg:p-20'>
       <div className='flex flex-col md:flex-row  items-center gap-5 mt-5 mb-10  p-2 '>
 
         {/* left part  */}
       <div className='w-full md:w-2/5 flex justify-center items-center p-3 mx-auto rounded-xl bg-white'>
-        <img className='w-[350px] h-[350px]  rounded-2xl' src={image} alt="" />
+        <img className='w-[300px] md:w-[350px] h-[300px] md:h-[350px]  rounded-2xl' src={image} alt="" />
       </div>
       
        {/* right part */}
       <div className=' w-full md:w-3/5 my-auto  flex-1'>
-        <h1 className='font-bold text-4xl mb-2'>{title}</h1>
+
+        <h1 className='font-bold text-3xl md:text-4xl mb-2'>{title}</h1>
+
         <p className='text-xl text-[#627382] font-bold mt-2 '>Developed By: <span className='text-[#632ee3]'>{companyName}</span></p>
          
          {/* border */}
         <div className='mt-5 border-t-1 border-gray-300 '></div>
 
            {/* download rating part */}
-         <div className='flex items-center space-y-4 gap-5 mt-5'>
-           <div  className='space-y-2'>
+         <div className='flex items-center mb-4 gap-5 mt-5'>
+
+           <div  className='space-y-2 flex flex-col items-center justify-center '>
             <img className='w-6 h-6' src={iconImg} alt="" />
             <h3 className='text-[#627382]'>Downloads</h3>
-            <span className='font-bold text-2xl md:text-4xl'>{downloads}</span>
+            <span className='font-bold text-xl md:text-2xl lg:text-4xl'>{downloads}</span>
            </div>
        
-           <div className='space-y-2'>
+           <div className='space-y-2 flex flex-col items-center justify-center'>
             <img className='w-6 h-6' src={ratingImg} alt="" />
             <h3 className='text-[#627382]'>Average Ratings</h3>
-            <span className='font-bold text-2xl md:text-4xl'>{ratingAvg}</span>
+            <span className='font-bold text-xl md:text-2xl lg:text-4xl'>{ratingAvg}</span>
            </div>
-           <div className='space-y-2'>
+
+           <div className='space-y-2 flex flex-col items-center justify-center'>
             <img className='w-6 h-6' src={reviewImg} alt="" />
             <h3 className='text-[#627382]'>Total Reviews</h3>
-            <span className='font-bold text-2xl md:text-4xl'>{reviews}</span>
+            <span className='font-bold text-xl md:text-2xl lg:text-4xl'>{reviews}</span>
            </div>
          </div>
          {/* installed button */}
@@ -104,9 +108,9 @@ const AppDetails = () => {
         <div className='mt-20 border-t-1 border-gray-300 '></div>
 
         {/* Description part */}
-        <div className='mt-5'>
+        <div className='my-5'>
              <h3 className='text-2xl font-semibold mb-2'>Description</h3>
-             <p className='text-[#627382] text-xl'>{description}</p>
+             <p className='text-[#627382] text-base md:text-xl'>{description}</p>
         </div>
       
     </div>
