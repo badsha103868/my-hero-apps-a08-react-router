@@ -55,7 +55,7 @@ const AppDetails = () => {
 
         {/* left part  */}
       <div className='w-full md:w-2/5 flex justify-center items-center p-3 mx-auto rounded-xl bg-white'>
-        <img className='w-[300px] md:w-[350px] h-[300px] md:h-[350px]  rounded-2xl' src={image} alt="" />
+        <img className='w-[300px] md:w-[350px] h-[300px] md:h-[350px] object-cover  rounded-2xl' src={image} alt="" />
       </div>
       
        {/* right part */}
